@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
+import Footer from './components/Footer';
 
 function App() {
   const [categories] = useState([
@@ -24,15 +25,18 @@ function App() {
   }
 
   return (
-    <div>
+    <div className='flex flex-col justify-between content-between'>
       <Header
         categories={categories}
         setCurrentCategory={setCurrentCategory}
-        currentCategory={currentCategory} 
-        />
-      <main>
-        {renderPage()}
-      </main>
+        currentCategory={currentCategory}
+      />
+      <div className='flex items-center flex-col'>
+        <main>
+          {renderPage()}
+        </main>
+      </div>
+      <Footer />
     </div>
   );
 }

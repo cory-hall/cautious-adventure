@@ -18,13 +18,13 @@ function Header(props) {
 
 
   return (
-    <div className='header'>
+    <div className='h-80 flex flex-col justify-between text-white'>
       <Particles
         id="tsparticles"
         init={particlesInit}
         options={particles}
       />
-      <p className='header-text'>Hello, My name is Cory.</p>
+      <p className='text-2xl py-10 text-center'>Hello, My name is Cory.</p>
       <Nav
         categories={categories}
         setCurrentCategory={setCurrentCategory}

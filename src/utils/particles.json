@@ -1,11 +1,11 @@
 {
     "fullScreen": {
-        "enable": false,
-        "zIndex": 1
+        "enable": true,
+        "zIndex": -1
     },
     "particles": {
         "number": {
-            "value": 400,
+            "value": 200,
             "density": {
                 "enable": true,
                 "value_area": 800
@@ -28,7 +28,7 @@
             }
         },
         "size": {
-            "value": 10,
+            "value": 5,
             "random": true,
             "anim": {
                 "enable": false,
@@ -97,7 +97,7 @@
     },
     "retina_detect": true,
     "background": {
-        "color": "#0d47a1",
+        "color": "#000000",
         "image": "",
         "position": "50% 50%",
         "repeat": "no-repeat",

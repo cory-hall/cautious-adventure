@@ -1,7 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #596673;
+}
+
 * {
   margin: 0;
   padding: 0;
+  max-height: 100%;
 }
+
+html,
+body,
+#app,
+#app>div {
+  height: 100%
+}
+
+#tsparticles {
+  width: 100%;
+  height: 320px;
+  position: absolute;
+  z-index: -1;
+}
+
+.navActive {
+  color: yellowgreen;
+}
+
+nav li {
+  cursor: pointer;
+}
+
+main {
+  background-color: var(--primary);
+  min-height: 100%;
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+.bg-color {
+  background-color: var(--primary);
+}
+
+/*
 
 .header {
   width: 100%;
@@ -23,20 +67,11 @@ nav a:hover {
   text-decoration: none;
 }
 
-nav  li {
-  cursor: pointer;
-}
 
-.navActive {
-  color: var(--secondary);
-}
 
-#tsparticles {
-  width: 100%;
-  height: 200px;
-  position: absolute;
-  z-index: -1;
-}
+
+
+
 
 :root {
   --primary: #8c54ff;
@@ -52,10 +87,7 @@ nav  li {
 
 }
 
-html,
-body {
-  min-height: 100%;
-}
+
 
 body {
   margin: 0;
@@ -314,4 +346,4 @@ a {
 	
 }
 
-
+ */

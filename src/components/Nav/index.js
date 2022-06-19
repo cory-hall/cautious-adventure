@@ -9,11 +9,11 @@ function Nav(props) {
   } = props;
 
   return (
-    <nav className='nav-div'>
-      <ul className='flex-row'>
+    <nav className='pb-8'>
+      <ul className='flex flex-row justify-evenly'>
       {categories.map((category) => (
             <li
-              className={`mx-1 ${currentCategory === category.name && `navActive`
+              className={`text-2xl lg:text-3xl ${currentCategory === category.name && `navActive`
                 }`}
               key={category.name}
             >
