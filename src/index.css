@@ -37,7 +37,7 @@ nav li {
 main {
   background-color: var(--primary);
   min-height: 100%;
-  max-width: 90%;
+  width: 90%;
   border-radius: 10px;
 }
 
