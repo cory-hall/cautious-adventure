@@ -19,7 +19,7 @@ function Portfolio() {
                 className="absolute inset-0 w-full h-full object-cover object-center"
                 src={project.image}
               />
-              <div className="flex flex-col justify-around items-center px-8 py-10 relative z-10 w-full border-4 border-black bg-white opacity-0 hover:opacity-100">
+              <div className="flex flex-col justify-around items-center px-8 py-10 relative z-10 w-full border-4 border-black bg-white opacity-0 hover:opacity-90">
                 <h2 className="text-lg title-font font-medium text-black mb-1">
                   <a href={project.live}>{project.name}</a>
                 </h2>

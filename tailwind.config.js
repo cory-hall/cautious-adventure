@@ -5,7 +5,8 @@ module.exports = {
     "./src/components/Header/index.js",
     "./src/components/Nav/index.js",
     "./src/components/Portfolio/index.js",
-    "./src/components/Footer/index.js"
+    "./src/components/Footer/index.js",
+    "./src/components/Contact/index.js"
   ],
   theme: {
     extend: {},
