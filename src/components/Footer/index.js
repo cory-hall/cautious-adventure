@@ -18,7 +18,7 @@ function Footer() {
           <img src={overflow} width='64' height='64' alt='stack overflow logo'></img>
         </a>
       </div>
-      <p className='pt-5 text-white'>©️ Cory Hall 2022</p>
+      <p className='pt-5 ml-4 text-white'>©️ Cory Hall 2022</p>
     </div>
   )
 }

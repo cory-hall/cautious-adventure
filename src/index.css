@@ -4,6 +4,7 @@
 
 :root {
   --primary: #596673;
+  --secondary: #6699CC;
 }
 
 * {
@@ -16,7 +17,8 @@ html,
 body,
 #app,
 #app>div {
-  height: 100%
+  height: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 #tsparticles {
@@ -27,17 +29,14 @@ body,
 }
 
 .navActive {
-  color: yellowgreen;
+  color: var(--secondary);
 }
 
 nav li {
   cursor: pointer;
 }
 
-main {
-  background-color: var(--primary);
-  min-height: 100%;
-  width: 90%;
+.radius {
   border-radius: 10px;
 }
 

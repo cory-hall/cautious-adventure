@@ -49,11 +49,9 @@ function App() {
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
       />
-      <div className='flex items-center flex-col'>
-        <main>
-          {renderPage()}
-        </main>
-      </div>
+      <main className='flex items-center content-center justify-center flex-col'>
+        {renderPage()}
+      </main>
       <Footer />
     </div>
   );

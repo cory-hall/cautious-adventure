@@ -32,9 +32,9 @@ function ContactForm() {
   }
 
   return (
-    <section className='w-full'>
+    <section>
       <h1 className='text-3xl text-center'>Contact me</h1>
-      <form className='w-full m-4'>
+      <form className='flex flex-col items-center w-64 m-4'>
         <div className='p-3'>
           <label htmlFor="name">Name: </label>
           <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
