@@ -1,4 +1,4 @@
-import  image from '../../src/assets/images/0.png';
+import  image from '../../src/assets/images/project-screenshots/0.png';
 
 export const projects = [
   {

@@ -44,6 +44,22 @@ nav li {
   background-color: var(--primary);
 }
 
+.resume-img {
+  max-width: 20%;
+  height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .resume-img {
+    max-width: 50%;
+    height: auto;
+  }
+
+  .mobile-form {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /* 
 
 .header {

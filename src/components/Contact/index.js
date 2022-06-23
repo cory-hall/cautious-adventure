@@ -32,18 +32,18 @@ function ContactForm() {
   }
 
   return (
-    <section className='bg-color radius w-2/3'>
+    <section className='bg-color radius w-5/6 md:w-3/5 p-10'>
       <h1 className='text-3xl text-center'>Contact me</h1>
-      <form className='flex flex-col items-end m-4 w-2/3'>
-        <div className='py-4'>
+      <form className='flex flex-col items-center md:items-end md:w-2/3 m-4'>
+        <div className='mobile-form py-4'>
           <label className='px-2' htmlFor="name">Name:</label>
           <input className='px-4' type="text" defaultValue={name} onBlur={handleChange} name="name" />
         </div>
-        <div className='py-4'>
+        <div className='mobile-form py-4'>
           <label className='px-2' htmlFor="email">Email address:</label>
           <input className='px-4' type="email" defaultValue={email} onBlur={handleChange} name="email" />
         </div>
-        <div className='flex content-center py-4'>
+        <div className='flex flex-wrap  mobile-form content-center py-4'>
           <label className='px-2' htmlFor="message">Message:</label>
           <textarea className='px-5' name="message" defaultValue={message} onBlur={handleChange} rows="5" />
         </div>

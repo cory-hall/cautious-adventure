@@ -13,7 +13,7 @@ function Header(props) {
 
   return (
     <div className='h-80 flex flex-col justify-between text-white'>
-      <p className='text-2xl py-10 text-center'>Hello, My name is Cory.</p>
+      <p className='text-2xl py-10 text-center'>Hello, My name is Cory.<br></br> I like to make things for the web.</p>
       <Nav
         categories={categories}
         setCurrentCategory={setCurrentCategory}

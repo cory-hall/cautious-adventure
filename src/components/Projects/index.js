@@ -4,7 +4,7 @@ import githubLogo from '../../assets/images/GitHub-Mark-64px.png'
 
 function Projects() {
   return (
-    <section className='bg-color radius w-full md:w-3/4'>
+    <section className='bg-color radius w-5/6'>
       <div className=" w-full p-10 text-center">
           <h1 className="mb-4 text-3xl font-bold text-white">
             My Projects

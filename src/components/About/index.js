@@ -2,10 +2,13 @@ import React from "react";
 
 function About() {
   return (
-    <section className="p-8 w-5/6 bg-color radius" >
+    <section className="p-10 w-5/6 bg-color radius" >
       <h1 className="text-3xl text-center font-bold">Who am I?</h1>
         <p className="p-2 text-xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi tristique justo vel turpis sollicitudin, et tristique velit convallis. In hac habitasse platea dictumst. Phasellus mattis nunc sed orci consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet ultricies mollis. In hac habitasse platea dictumst.
+          I am an aspiring web developer, who through deliberate practice and dedication am working towards becoming a full fledged web developer.
+          I am a recent recipient of a Full Stack Web Development certificate from a coding boot camp hosted by Michigan State University.
+          My plan for success is to use the foundational web development skills as well as other general skills that I have learned in the work force
+          to create beautiful and responsive web sites all created by a carefully crafted and well maintained codebase.
         </p>
     </section>
   )
