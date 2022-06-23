@@ -27,22 +27,32 @@ function ContactForm() {
     }
   };
 
-  function handleSubmit(e) {
-    e.preventDefault();
+  function handleSubmit(event) {
+    event.preventDefault();
   }
 
   return (
-    <section>
+    <section className='bg-color radius w-2/3'>
       <h1 className='text-3xl text-center'>Contact me</h1>
-      <form className='flex flex-col items-center w-64 m-4'>
-        <div className='p-3'>
-          <label htmlFor="name">Name: </label>
-          <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
+      <form className='flex flex-col items-end m-4 w-2/3'>
+        <div className='py-4'>
+          <label className='px-2' htmlFor="name">Name:</label>
+          <input className='px-4' type="text" defaultValue={name} onBlur={handleChange} name="name" />
         </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" defaultValue={email} onBlur={handleChange} name="email" />
+        <div className='py-4'>
+          <label className='px-2' htmlFor="email">Email address:</label>
+          <input className='px-4' type="email" defaultValue={email} onBlur={handleChange} name="email" />
         </div>
+        <div className='flex content-center py-4'>
+          <label className='px-2' htmlFor="message">Message:</label>
+          <textarea className='px-5' name="message" defaultValue={message} onBlur={handleChange} rows="5" />
+        </div>
+        {errorMessage && (
+          <div className='m-3'>
+            <p className='error-text'>{errorMessage}</p>
+          </div>
+        )}
+        <button className='bg-white p-1 px-2' type="submit" onSubmit={handleSubmit}>Submit</button>
       </form>
     </section>
   );

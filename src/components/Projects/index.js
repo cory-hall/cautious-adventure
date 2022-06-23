@@ -2,15 +2,13 @@ import React from 'react';
 import { projects } from '../../utils/projects';
 import githubLogo from '../../assets/images/GitHub-Mark-64px.png'
 
-function Portfolio() {
+function Projects() {
   return (
-    <section>
+    <section className='bg-color radius w-full md:w-3/4'>
       <div className=" w-full p-10 text-center">
-        <div className="flex flex-col mb-20">
-          <h1 className="sm:text-4xl text-3xl font-medium text-white">
+          <h1 className="mb-4 text-3xl font-bold text-white">
             My Projects
           </h1>
-        </div>
         <div className="flex flex-wrap justify-around">
           {projects.map((project) => (
             <div className="flex relative w-full md:w-1/3 h-80 mb-5 md:m-5">
@@ -38,4 +36,4 @@ function Portfolio() {
   )
 }
 
-export default Portfolio;
+export default Projects;

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
 import Header from './components/Header';
 import About from './components/About';
-import Portfolio from './components/Portfolio';
+import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import particles from './utils/particles';
@@ -12,7 +12,7 @@ import { loadFull } from 'tsparticles';
 function App() {
   const [categories] = useState([
     { name: 'about' },
-    { name: 'portfolio' },
+    { name: 'projects' },
     { name: 'contact' },
     { name: 'resume' }
   ]);
@@ -23,8 +23,8 @@ function App() {
     if (currentCategory === 'about') {
       return <About />
     }
-    if (currentCategory === 'portfolio') {
-      return <Portfolio />
+    if (currentCategory === 'projects') {
+      return <Projects />
     }
     if (currentCategory === 'contact') {
       return <Contact />
