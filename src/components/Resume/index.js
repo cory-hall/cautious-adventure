@@ -13,13 +13,11 @@ function Resume() {
           My Skills
         </h1>
         <ul>
-          <li>Version Control</li>
-          <li>RESTful API</li>
-          <li>AGILE Development Lifecycle</li>
-          <li>CRUD Methodology</li>
-          <li>Unit Testing</li>
-          <li></li>
-
+          <li className='m-2 text-center'>Version Control</li>
+          <li className='m-2 text-center'>RESTful API</li>
+          <li className='m-2 text-center'>AGILE Development Lifecycle</li>
+          <li className='m-2 text-center'>CRUD Methodology</li>
+          <li className='m-2 text-center'>Unit Testing</li>
         </ul>
       </div>
       <h1 className='text-center text-2xl font-medium m-4'>
