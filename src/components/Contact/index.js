@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import emailjs from '@emailjs/browser';
 import eimg from '../../assets/images/mail-100.png';
@@ -8,8 +8,6 @@ function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
   var { name, email, message } = formState;
   const [errorMessage, setErrorMessage] = useState('');
-
-  const form = useRef();
 
   function handleChange(e) {
     if (e.target.name === 'email') {
@@ -39,7 +37,6 @@ function ContactForm() {
       .then((result) => {
         console.log(result);
         setErrorMessage('Message successfully sent!');
-        setFormState({ name: '', email: '', message: '' });
       }, (error) => {
         console.log(error);
         setErrorMessage('Something went wrong. Try sending me a direct email at corycareerwebdev@gmail.com')
@@ -53,7 +50,7 @@ function ContactForm() {
         <a className='text-center' href='mailto:corycareerwebdev@gmail.com'>Email Me: <img className='block mx-auto' src={eimg} alt='email icon'></img>  @ corycareerwebdev@gmail </a> <br></br>
         <a className='text-center' href='tel:319-850-8214'>Call Me: <img className='block mx-auto' src={pimg} alt='phone icon'></img> @ 319-850-8214 </a>
       </div>
-      <form ref={form} onSubmit={handleSubmit} className='md:flex md:flex-col md:justify-start md:w-1/3 md:m-4'>
+      <form onSubmit={handleSubmit} className='md:flex md:flex-col md:justify-start md:w-1/3 md:m-4'>
         <div className='mobile-form py-4'>
           <label className='px-2' htmlFor="name">Name:</label><br></br>
           <input className='px-4' type="text" defaultValue={name} onChange={handleChange} name="name" required />
