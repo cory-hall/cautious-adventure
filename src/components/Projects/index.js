@@ -11,13 +11,13 @@ function Projects() {
           </h1>
         <div className="flex flex-wrap justify-around">
           {projects.map((project) => (
-            <div className="flex relative w-full md:w-1/3 h-80 mb-5 md:m-5">
+            <div className="flex relative w-full md:w-1/3 h-96 mb-5 md:m-5">
               <img
                 alt="project screenshot"
                 className="absolute inset-0 w-full h-full object-cover object-center radius"
                 src={project.image}
               />
-              <div className="flex flex-col justify-around items-center radius px-8 py-10 relative z-10 w-full border-4 border-black bg-white opacity-0 hover:opacity-90">
+              <div className="flex flex-col justify-around items-center radius px-8 py-15 relative z-10 w-full border-4 border-black bg-white opacity-0 hover:opacity-90">
                 <h1 className="text-lg title-font font-bold text-black mb-1">
                   <a href={project.live}>{project.name}</a>
                 </h1>

@@ -52,6 +52,6 @@ export const projects = [
     tech: 'HTML, CSS, API Calls, Dynamic Generation',
     repo: 'https://github.com/cory-hall/totally-accurate-weather-app',
     live: 'https://cory-hall.github.io/totally-accurate-weather-app/',
-    desc: 'This project was focused on learning how to handle API calls from a third party. The HTML and CSS are also dynamically generated based on what content needs to be displayed.'
+    desc: 'The goal of this project was to learn API calls. The HTML and CSS are also dynamically generated.'
   }
 ]

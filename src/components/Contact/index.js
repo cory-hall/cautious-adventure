@@ -1,6 +1,8 @@
 import React, { useState, useRef } from 'react';
 import { validateEmail } from '../../utils/helpers';
 import emailjs from '@emailjs/browser';
+import eimg from '../../assets/images/mail-100.png';
+import pimg from '../../assets/images/phone-100.png';
 
 function ContactForm() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -45,9 +47,13 @@ function ContactForm() {
   }
 
   return (
-    <section className='bg-color radius w-5/6 md:w-3/5 p-10'>
-      <h1 className='text-3xl text-center'>Contact me</h1>
-      <form ref={form} onSubmit={handleSubmit} className='flex flex-col items-center md:items-end md:w-2/3 m-4'>
+    <section className='flex flex-wrap flex-col md:flex-row justify-evenly bg-color radius w-5/6 md:w-2/3 p-10'>
+      <h1 className='text-3xl text-center w-full'>Contact me</h1>
+      <div className='md:flex md:flex-col md:justify-center md:w-1/3'>
+        <a className='text-center' href='mailto:corycareerwebdev@gmail.com'>Email Me: <img className='block mx-auto' src={eimg} alt='email icon'></img>  @ corycareerwebdev@gmail </a> <br></br>
+        <a className='text-center' href='tel:319-850-8214'>Call Me: <img className='block mx-auto' src={pimg} alt='phone icon'></img> @ 319-850-8214 </a>
+      </div>
+      <form ref={form} onSubmit={handleSubmit} className='md:flex md:flex-col md:items-end md:w-1/3 md:m-4'>
         <div className='mobile-form py-4'>
           <label className='px-2' htmlFor="name">Name:</label>
           <input className='px-4' type="text" defaultValue={name} onChange={handleChange} name="name" required />
@@ -65,7 +71,7 @@ function ContactForm() {
             <p className='error-text'>{errorMessage}</p>
           </div>
         )}
-        <button className='bg-white p-1 px-2' type="submit">Submit</button>
+        <button className=' block bg-white p-1 px-2 mr-auto' type="submit">Submit</button>
       </form>
     </section>
   );
