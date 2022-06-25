@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cautious-adventure/static/css/main.6ce75227.css",
-    "main.js": "/cautious-adventure/static/js/main.b50c1e82.js",
+    "main.css": "/cautious-adventure/static/css/main.59099cfd.css",
+    "main.js": "/cautious-adventure/static/js/main.1af1be5d.js",
     "static/js/937.e894a96f.chunk.js": "/cautious-adventure/static/js/937.e894a96f.chunk.js",
     "static/js/787.dd606b6a.chunk.js": "/cautious-adventure/static/js/787.dd606b6a.chunk.js",
     "static/media/FTO-Screenshot.png": "/cautious-adventure/static/media/FTO-Screenshot.66797b8bb1630ad23a64.png",
@@ -19,13 +19,13 @@
     "static/media/bootstrap-logo.png": "/cautious-adventure/static/media/bootstrap-logo.0d55f027c927c1af342d.png",
     "static/media/heroku-logo.png": "/cautious-adventure/static/media/heroku-logo.9300497373c264b1da68.png",
     "index.html": "/cautious-adventure/index.html",
-    "main.6ce75227.css.map": "/cautious-adventure/static/css/main.6ce75227.css.map",
-    "main.b50c1e82.js.map": "/cautious-adventure/static/js/main.b50c1e82.js.map",
+    "main.59099cfd.css.map": "/cautious-adventure/static/css/main.59099cfd.css.map",
+    "main.1af1be5d.js.map": "/cautious-adventure/static/js/main.1af1be5d.js.map",
     "937.e894a96f.chunk.js.map": "/cautious-adventure/static/js/937.e894a96f.chunk.js.map",
     "787.dd606b6a.chunk.js.map": "/cautious-adventure/static/js/787.dd606b6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6ce75227.css",
-    "static/js/main.b50c1e82.js"
+    "static/css/main.59099cfd.css",
+    "static/js/main.1af1be5d.js"
   ]
 }
