@@ -48,21 +48,21 @@ function ContactForm() {
 
   return (
     <section className='flex flex-wrap flex-col md:flex-row justify-evenly bg-color radius w-5/6 md:w-2/3 p-10'>
-      <h1 className='text-3xl text-center w-full'>Contact me</h1>
+      <h1 className='text-3xl text-white text-center w-full pb-4'>Contact me</h1>
       <div className='md:flex md:flex-col md:justify-center md:w-1/3'>
         <a className='text-center' href='mailto:corycareerwebdev@gmail.com'>Email Me: <img className='block mx-auto' src={eimg} alt='email icon'></img>  @ corycareerwebdev@gmail </a> <br></br>
         <a className='text-center' href='tel:319-850-8214'>Call Me: <img className='block mx-auto' src={pimg} alt='phone icon'></img> @ 319-850-8214 </a>
       </div>
-      <form ref={form} onSubmit={handleSubmit} className='md:flex md:flex-col md:items-end md:w-1/3 md:m-4'>
+      <form ref={form} onSubmit={handleSubmit} className='md:flex md:flex-col md:justify-start md:w-1/3 md:m-4'>
         <div className='mobile-form py-4'>
-          <label className='px-2' htmlFor="name">Name:</label>
+          <label className='px-2' htmlFor="name">Name:</label><br></br>
           <input className='px-4' type="text" defaultValue={name} onChange={handleChange} name="name" required />
         </div>
         <div className='mobile-form py-4'>
-          <label className='px-2' htmlFor="email">Email address:</label>
+          <label className='px-2' htmlFor="email">Email address:</label><br></br>
           <input className='px-4' type="email" defaultValue={email} onChange={handleChange} name="email" required/>
         </div>
-        <div className='flex flex-wrap  mobile-form content-center py-4'>
+        <div className='flex flex-col mobile-form content-center py-4'>
           <label className='px-2' htmlFor="message">Message:</label>
           <textarea className='px-5' name="message" defaultValue={message} onChange={handleChange} rows="5" required/>
         </div>
