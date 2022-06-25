@@ -53,15 +53,15 @@ function ContactForm() {
       <form onSubmit={handleSubmit} className='md:flex md:flex-col md:justify-start md:w-1/3 md:m-4'>
         <div className='mobile-form py-4'>
           <label className='px-2' htmlFor="name">Name:</label><br></br>
-          <input className='px-4' type="text" defaultValue={name} onChange={handleChange} name="name" required />
+          <input className='px-4' type="text" defaultValue={name} onBlur={handleChange} name="name" required />
         </div>
         <div className='mobile-form py-4'>
           <label className='px-2' htmlFor="email">Email address:</label><br></br>
-          <input className='px-4' type="email" defaultValue={email} onChange={handleChange} name="email" required/>
+          <input className='px-4' type="email" defaultValue={email} onBlur={handleChange} name="email" required/>
         </div>
         <div className='flex flex-col mobile-form content-center py-4'>
           <label className='px-2' htmlFor="message">Message:</label>
-          <textarea className='px-5' name="message" defaultValue={message} onChange={handleChange} rows="5" required/>
+          <textarea className='px-5' name="message" defaultValue={message} onBlur={handleChange} rows="5" required/>
         </div>
         {errorMessage && (
           <div className='m-3'>
