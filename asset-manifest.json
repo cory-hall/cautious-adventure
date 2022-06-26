@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/cautious-adventure/static/css/main.b62519dc.css",
-    "main.js": "/cautious-adventure/static/js/main.a35ee054.js",
+    "main.css": "/cautious-adventure/static/css/main.fbddb42a.css",
+    "main.js": "/cautious-adventure/static/js/main.05e6d6b9.js",
     "static/js/937.e894a96f.chunk.js": "/cautious-adventure/static/js/937.e894a96f.chunk.js",
     "static/js/787.dd606b6a.chunk.js": "/cautious-adventure/static/js/787.dd606b6a.chunk.js",
     "static/media/FTO-Screenshot.png": "/cautious-adventure/static/media/FTO-Screenshot.66797b8bb1630ad23a64.png",
+    "static/media/port-pic.JPG": "/cautious-adventure/static/media/port-pic.cebcdf6173803c92a505.JPG",
     "static/media/WeatherApp-Screenshot.png": "/cautious-adventure/static/media/WeatherApp-Screenshot.e8a9d56425be32bf4a4e.png",
-    "static/media/port-pic.jpg": "/cautious-adventure/static/media/port-pic.55ff913476881ac5fe3c.jpg",
     "static/media/FinancialForecast-Screenshot.png": "/cautious-adventure/static/media/FinancialForecast-Screenshot.83b2e8799cbe5df5073b.png",
     "static/media/Foxy-Screenshot.png": "/cautious-adventure/static/media/Foxy-Screenshot.aa9204f3655e40a1c132.png",
     "static/media/TechBlogger-Screenshot.png": "/cautious-adventure/static/media/TechBlogger-Screenshot.66e63e421d5fac05d0ac.png",
@@ -20,13 +20,13 @@
     "static/media/bootstrap-logo.png": "/cautious-adventure/static/media/bootstrap-logo.0d55f027c927c1af342d.png",
     "static/media/heroku-logo.png": "/cautious-adventure/static/media/heroku-logo.9300497373c264b1da68.png",
     "index.html": "/cautious-adventure/index.html",
-    "main.b62519dc.css.map": "/cautious-adventure/static/css/main.b62519dc.css.map",
-    "main.a35ee054.js.map": "/cautious-adventure/static/js/main.a35ee054.js.map",
+    "main.fbddb42a.css.map": "/cautious-adventure/static/css/main.fbddb42a.css.map",
+    "main.05e6d6b9.js.map": "/cautious-adventure/static/js/main.05e6d6b9.js.map",
     "937.e894a96f.chunk.js.map": "/cautious-adventure/static/js/937.e894a96f.chunk.js.map",
     "787.dd606b6a.chunk.js.map": "/cautious-adventure/static/js/787.dd606b6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b62519dc.css",
-    "static/js/main.a35ee054.js"
+    "static/css/main.fbddb42a.css",
+    "static/js/main.05e6d6b9.js"
   ]
 }
