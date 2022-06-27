@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cautious-adventure/static/css/main.b447ebb6.css",
-    "main.js": "/cautious-adventure/static/js/main.21f3e0f3.js",
+    "main.css": "/cautious-adventure/static/css/main.c25fccba.css",
+    "main.js": "/cautious-adventure/static/js/main.1d83cbca.js",
     "static/js/937.e894a96f.chunk.js": "/cautious-adventure/static/js/937.e894a96f.chunk.js",
     "static/js/787.dd606b6a.chunk.js": "/cautious-adventure/static/js/787.dd606b6a.chunk.js",
     "static/media/FTO-Screenshot.png": "/cautious-adventure/static/media/FTO-Screenshot.66797b8bb1630ad23a64.png",
@@ -10,23 +10,27 @@
     "static/media/FinancialForecast-Screenshot.png": "/cautious-adventure/static/media/FinancialForecast-Screenshot.83b2e8799cbe5df5073b.png",
     "static/media/Foxy-Screenshot.png": "/cautious-adventure/static/media/Foxy-Screenshot.aa9204f3655e40a1c132.png",
     "static/media/TechBlogger-Screenshot.png": "/cautious-adventure/static/media/TechBlogger-Screenshot.66e63e421d5fac05d0ac.png",
-    "static/media/mern-logo.png": "/cautious-adventure/static/media/mern-logo.e2d1af46e7b7f15be11f.png",
-    "static/media/jquery-logo.png": "/cautious-adventure/static/media/jquery-logo.4eab892a39c8d0fd399f.png",
-    "static/media/mongodb-logo.png": "/cautious-adventure/static/media/mongodb-logo.6693219727f6045d56b6.png",
-    "static/media/sql-logo.png": "/cautious-adventure/static/media/sql-logo.8c53f46599d600c84b79.png",
-    "static/media/webpack-logo.png": "/cautious-adventure/static/media/webpack-logo.5bd3fd1235bbc91c2bc8.png",
-    "static/media/html-logo.png": "/cautious-adventure/static/media/html-logo.2d7f77f8a92b6787acab.png",
     "static/media/NoteTaker-Screenshot.png": "/cautious-adventure/static/media/NoteTaker-Screenshot.9ed9f4f36878d84739bf.png",
-    "static/media/bootstrap-logo.png": "/cautious-adventure/static/media/bootstrap-logo.0d55f027c927c1af342d.png",
-    "static/media/heroku-logo.png": "/cautious-adventure/static/media/heroku-logo.9300497373c264b1da68.png",
+    "static/media/mysql-logo.svg": "/cautious-adventure/static/media/mysql-logo.1ba606699861a81a2f7bb3a2b8c88e83.svg",
+    "static/media/react-logo.svg": "/cautious-adventure/static/media/react-logo.b5d44e7abe9b6ba06a90c0c0338188c5.svg",
+    "static/media/node-logo.svg": "/cautious-adventure/static/media/node-logo.9866605cb4351571f76e903bf9f2fda7.svg",
+    "static/media/heroku-logo.svg": "/cautious-adventure/static/media/heroku-logo.43dc42b8a81198dedeb692d4281dddfd.svg",
+    "static/media/express-logo.svg": "/cautious-adventure/static/media/express-logo.c43640813873cdc83cda91bfa4baf5a4.svg",
+    "static/media/github-logo.svg": "/cautious-adventure/static/media/github-logo.be78b709e168a3d42edc5df33af37b0d.svg",
     "index.html": "/cautious-adventure/index.html",
-    "main.b447ebb6.css.map": "/cautious-adventure/static/css/main.b447ebb6.css.map",
-    "main.21f3e0f3.js.map": "/cautious-adventure/static/js/main.21f3e0f3.js.map",
+    "static/media/mongodb-logo.svg": "/cautious-adventure/static/media/mongodb-logo.5eb90a8d839dc6402fe89688d49fa774.svg",
+    "static/media/js-logo.svg": "/cautious-adventure/static/media/js-logo.2c4ec503447402632078448b9a2fc3c5.svg",
+    "static/media/webpack-logo.svg": "/cautious-adventure/static/media/webpack-logo.734d7af31835cc66b86286aa41f44c45.svg",
+    "static/media/html5-logo.svg": "/cautious-adventure/static/media/html5-logo.6e85872b1a29c182d578bad8873a93a4.svg",
+    "static/media/bootstrap-logo.svg": "/cautious-adventure/static/media/bootstrap-logo.1a778fc54b668dcfb286171a15a44e51.svg",
+    "static/media/css3-logo.svg": "/cautious-adventure/static/media/css3-logo.15281a0c52e1ac225b0dfaf6b9107680.svg",
+    "main.c25fccba.css.map": "/cautious-adventure/static/css/main.c25fccba.css.map",
+    "main.1d83cbca.js.map": "/cautious-adventure/static/js/main.1d83cbca.js.map",
     "937.e894a96f.chunk.js.map": "/cautious-adventure/static/js/937.e894a96f.chunk.js.map",
     "787.dd606b6a.chunk.js.map": "/cautious-adventure/static/js/787.dd606b6a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b447ebb6.css",
-    "static/js/main.21f3e0f3.js"
+    "static/css/main.c25fccba.css",
+    "static/js/main.1d83cbca.js"
   ]
 }
