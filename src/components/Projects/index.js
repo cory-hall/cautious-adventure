@@ -11,7 +11,7 @@ function Projects() {
           </h1>
         <div className="flex flex-wrap justify-around">
           {projects.map((project) => (
-            <div className="flex relative w-full md:w-1/3 h-96 mb-5 md:m-5">
+            <div key={project.name} className="flex relative w-full md:w-1/3 h-96 mb-5 md:m-5">
               <img
                 alt="project screenshot"
                 className="absolute inset-0 w-full h-full object-cover object-center radius"

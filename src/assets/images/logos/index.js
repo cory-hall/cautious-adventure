@@ -1,13 +1,29 @@
-import bootstrap from '../logos/bootstrap-logo.png';
-import handlebars from '../logos/handlebars-logo.png';
-import heroku from '../logos/heroku-logo.png';
-import web from '../logos/html-logo.png';
-import jquery from '../logos/jquery-logo.png';
-import mern from '../logos/mern-logo.png';
-import monogo from '../logos/mongodb-logo.png';
-import sql from '../logos/sql-logo.png';
-import pack from '../logos/webpack-logo.png';
+import expressLogo from '../logos/express-logo.svg';
+import githubLogo from '../logos/github-logo.svg';
+import nodeLogo from '../logos/node-logo.svg';
+import bootstrapLogo from '../logos/bootstrap-logo.svg';
+import css3Logo from '../logos/css3-logo.svg';
+import handlebarsLogo from '../logos/handlebars-logo.png';
+import herokuLogo from '../logos/heroku-logo.svg';
+import html5Logo from '../logos/html5-logo.svg';
+import jsLogo from '../logos/js-logo.svg';
+import mongodbLogo from '../logos/mongodb-logo.svg';
+import mysqlLogo from '../logos/mysql-logo.svg';
+import reactLogo from '../logos/react-logo.svg';
+import webpackLogo from '../logos/webpack-logo.svg';
 
-const images = [ bootstrap, handlebars, heroku, web, jquery, mern, monogo, sql, pack]
-
-export { images }
+export const images = [
+  expressLogo,
+  githubLogo,
+  nodeLogo,
+  bootstrapLogo,
+  css3Logo,
+  handlebarsLogo,
+  herokuLogo,
+  html5Logo,
+  jsLogo,
+  mongodbLogo,
+  mysqlLogo,
+  reactLogo,
+  webpackLogo
+]
