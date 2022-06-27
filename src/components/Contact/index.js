@@ -33,7 +33,7 @@ function ContactForm() {
   function handleSubmit(e) {
     e.preventDefault();
 
-    emailjs.send("service_5ou4udn","template_yapyoo6", {email, name, message}, 'Bl-To2-JWLoD6rxHN')
+    emailjs.send("service_5ou4udn", "template_yapyoo6", { email, name, message }, 'Bl-To2-JWLoD6rxHN')
       .then((result) => {
         console.log(result);
         setErrorMessage('Message successfully sent!');
@@ -47,8 +47,14 @@ function ContactForm() {
     <section className='flex flex-wrap flex-col md:flex-row justify-evenly bg-color radius w-5/6 md:w-2/3 p-10'>
       <h1 className='text-3xl text-white text-center w-full pb-4'>Contact me</h1>
       <div className='md:flex md:flex-col md:justify-center md:w-1/3'>
-        <a className='text-center' href='mailto:corycareerwebdev@gmail.com'>Email Me: <img className='block mx-auto' src={eimg} alt='email icon'></img>  @ corycareerwebdev@gmail </a> <br></br>
-        <a className='text-center' href='tel:319-850-8214'>Call Me: <img className='block mx-auto' src={pimg} alt='phone icon'></img> @ 319-850-8214 </a>
+        <div className='pb-4'>
+          <a className='text-center' href='mailto:corycareerwebdev@gmail.com'><img className='block mx-auto' src={eimg} alt='email icon'></img></a>
+          <p className='text-center'>@ cory.c.hall89@gmail.com</p>
+        </div>
+        <div className=''>
+          <a className='text-center' href='tel:319-850-8214'><img className='block mx-auto' src={pimg} alt='phone icon'></img></a>
+          <p className='text-center'>@ 319-850-8214</p>
+        </div>
       </div>
       <form onSubmit={handleSubmit} className='md:flex md:flex-col md:justify-start md:w-1/3 md:m-4'>
         <div className='mobile-form py-4'>
@@ -57,11 +63,11 @@ function ContactForm() {
         </div>
         <div className='mobile-form py-4'>
           <label className='px-2' htmlFor="email">Email address:</label><br></br>
-          <input className='px-4' type="email" defaultValue={email} onBlur={handleChange} name="email" required/>
+          <input className='px-4' type="email" defaultValue={email} onBlur={handleChange} name="email" required />
         </div>
         <div className='flex flex-col mobile-form content-center py-4'>
           <label className='px-2' htmlFor="message">Message:</label>
-          <textarea className='px-5' name="message" defaultValue={message} onBlur={handleChange} rows="5" required/>
+          <textarea className='px-5' name="message" defaultValue={message} onBlur={handleChange} rows="5" required />
         </div>
         {errorMessage && (
           <div className='m-3'>

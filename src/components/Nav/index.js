@@ -10,7 +10,7 @@ function Nav(props) {
 
   return (
     <nav className='pb-8'>
-      <ul className='flex flex-row justify-evenly'>
+      <ul className='flex flex-row flex-wrap justify-evenly'>
       {categories.map((category) => (
             <li
               className={`text-2xl lg:text-3xl ${currentCategory === category.name && `navActive`

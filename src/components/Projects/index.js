@@ -19,12 +19,12 @@ function Projects() {
               />
               <div className="flex flex-col justify-around items-center radius px-8 py-15 relative z-10 w-full border-4 border-black bg-white opacity-0 hover:opacity-90">
                 <h1 className="text-lg title-font font-bold text-black mb-1">
-                  <a href={project.live}>{project.name}</a>
+                  <a href={project.live} target='_blank' rel="noreferrer">{project.name}</a>
                 </h1>
                 <h3 className="text-lg font-medium text-black mb-3">
                   {project.tech}
                 </h3>
-                <a href={project.repo}>
+                <a href={project.repo} target='_blank' rel="noreferrer">
                   <img src={githubLogo} width='48px' height='48px' alt='github logo'></img>
                 </a>
                 <p>{project.desc}</p>

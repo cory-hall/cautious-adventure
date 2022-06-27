@@ -8,13 +8,13 @@ function Footer() {
   return (
     <div>
       <div className='h-40 py-20 flex flex-row justify-evenly items-center text-white'>
-        <a href='https://github.com/cory-hall'>
+        <a href='https://github.com/cory-hall' target='_blank' rel="noreferrer">
           <img src={github} width='64' height='64' alt='github logo'></img>
         </a>
-        <a href='https://www.linkedin.com/in/cory-hall-a2709623a/'>
+        <a href='https://www.linkedin.com/in/cory-hall-a2709623a/' target='_blank' rel="noreferrer">
           <img src={linkedin} width='64' height='64' alt='linkedin logo'></img>
         </a>
-        <a href='https://stackoverflow.com/users/14038394/cory-hall'>
+        <a href='https://stackoverflow.com/users/14038394/cory-hall' target='_blank' rel="noreferrer">
           <img src={overflow} width='64' height='64' alt='stack overflow logo'></img>
         </a>
       </div>

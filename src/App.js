@@ -7,6 +7,7 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
+import Snow from './components/Snow'
 import Footer from './components/Footer';
 
 import particles from './utils/particles';
@@ -17,7 +18,8 @@ function App() {
     { name: 'about' },
     { name: 'projects' },
     { name: 'contact' },
-    { name: 'resume' }
+    { name: 'resume' },
+    { name: 'snow' }
   ]);
 
   const [currentCategory, setCurrentCategory] = useState(categories[0].name);
@@ -34,6 +36,9 @@ function App() {
     }
     if (currentCategory === 'resume') {
       return <Resume />
+    }
+    if (currentCategory === 'snow') {
+      return <Snow />
     }
   }
 
