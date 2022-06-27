@@ -21,7 +21,7 @@ function Header(props) {
       <div className='text-center text-2xl md:text-4xl mb-4'>
         <Typewriter
           options={{
-            strings: ['adaptive designs.', 'elegant solutions.', 'content management systems.', 'clean code.', 'clear documentation.', 'RESTful architectural styles.', 'logical information architecture.', 'single page applications.', 'progressive web apps.'],
+            strings: ['adaptive designs.', 'elegant solutions.', 'content management systems.', 'clean code.', 'model-view-control design patterns.', 'clear documentation.', 'RESTful architectural styles.', 'logical information architecture.', 'single page applications.', 'progressive web apps.'],
             autoStart: true,
             loop: true,
           }}
