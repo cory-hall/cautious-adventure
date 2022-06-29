@@ -11,7 +11,7 @@ function Footer() {
         <a href='https://github.com/cory-hall' target='_blank' rel="noreferrer">
           <img src={github} width='64' height='64' alt='github logo'></img>
         </a>
-        <a href='https://www.linkedin.com/in/cory-hall-a2709623a/' target='_blank' rel="noreferrer">
+        <a href='https://www.linkedin.com/in/cory-hall-dev/' target='_blank' rel="noreferrer">
           <img src={linkedin} width='64' height='64' alt='linkedin logo'></img>
         </a>
         <a href='https://stackoverflow.com/users/14038394/cory-hall' target='_blank' rel="noreferrer">
