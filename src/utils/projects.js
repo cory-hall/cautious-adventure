@@ -3,7 +3,7 @@ import foxy from '../../src/assets/images/project-screenshots/Foxy-Screenshot.pn
 import fforecast from '../../src/assets/images/project-screenshots/FinancialForecast-Screenshot.png';
 import techblog from '../../src/assets/images/project-screenshots/TechBlogger-Screenshot.png';
 import notetaker from '../../src/assets/images/project-screenshots/NoteTaker-Screenshot.png';
-import weather from '../../src/assets/images/project-screenshots/WeatherApp-Screenshot.png';
+import thoughtboxer from '../../src/assets/images/project-screenshots/tb-screenshot.jpg';
 
 export const projects = [
   {
@@ -47,11 +47,11 @@ export const projects = [
     desc: 'The main purpose of this project was to display my ability when it comes to understanding and creating code around the Express.js library.'
   },
   {
-    image: weather,
+    image: thoughtboxer,
     name: 'Totally Accurate Weather App',
-    tech: 'HTML, CSS, API Calls, Dynamic Generation',
-    repo: 'https://github.com/cory-hall/totally-accurate-weather-app',
-    live: 'https://cory-hall.github.io/totally-accurate-weather-app/',
-    desc: 'The goal of this project was to learn API calls. The HTML and CSS are also dynamically generated.'
+    tech: 'React, Node, Express, Apollo GraphQL, Tailwind CSS',
+    repo: 'https://github.com/cory-hall/thought-boxer',
+    live: 'https://thoughtboxer.herokuapp.com/',
+    desc: 'This was our final group project and a functioning full stack web site. This app is used to settle any debate that is on your mind with public opinion.'
   }
 ]
