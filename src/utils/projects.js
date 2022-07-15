@@ -48,7 +48,7 @@ export const projects = [
   },
   {
     image: thoughtboxer,
-    name: 'Totally Accurate Weather App',
+    name: 'Thought Boxer',
     tech: 'React, Node, Express, Apollo GraphQL, Tailwind CSS',
     repo: 'https://github.com/cory-hall/thought-boxer',
     live: 'https://thoughtboxer.herokuapp.com/',
